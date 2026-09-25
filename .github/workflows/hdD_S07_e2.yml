@@ -1,0 +1,16 @@
+
+name: hdD_S07_e2
+
+on:
+  workflow_dispatch:
+jobs:
+ Mi_Inicio:
+    runs-on: ubuntu-latest
+
+    steps:
+
+        - uses: actions/checkout@v4
+        - name: Configurar Git
+          run: |
+            git config user.name "Jhon"
+            git config user.email "github-actions[u23330233@UTP.edu.pe"
